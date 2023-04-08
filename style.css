@@ -142,56 +142,63 @@ p{
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 850px) {
     .cabecalho {
-      padding: 5%;
+        padding: 5%;
+        display: flex;
+        justify-content: space-between;
+        gap: 2%;
     }
   
     .cabecalho__menu {
-      flex-direction: row;
-      gap: 2%;
-      justify-content: space-between;
-      align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        justify-content: space-between;
     }
   
     .cabecalho__menu__link {
-      font-size: 1.1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2%;
+        font-size: 1.1rem;
     }
   
     .cabecalho__menu__curriculo {
-      font-size: 1.1rem;
-      width: 96px;
-      height: 40px;
+        font-size: 1.1rem;
+        width: 96px;
+        height: 40px;
     }
   
     .apresentacao {
-      flex-direction: column;
-      padding: 5% 5% 10% 5%;
-      gap: 32px;
+        flex-direction: column;
+        padding: 5% 5% 10% 5%;
+        gap: 32px;
     }
   
     .apresentacao__conteudo {
-      width: 100%;
-      height: auto;
-      align-items: flex-start;
-      text-align: center;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        text-align: center;
     }
   
     .apresentacao__links {
-      gap: 16px;
-      text-align: center;
+        gap: 16px;
+        text-align: center;
     }
   
     .apresentacao__links__navegacao {
-      flex-direction: column;
-      gap: 16px;
+        flex-direction: column;
+        gap: 16px;
     }
   
     h1 {
-      font-size: 2.5rem;
+        font-size: 2.5rem;
     }
   
     p {
-      font-size: 1rem;
+        font-size: 1rem;
     }
   }
