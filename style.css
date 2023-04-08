@@ -21,14 +21,14 @@ body {
 
 .cabecalho{
     display: flex;
-    padding: 24px 98px 24px 98px;
+    padding: 0.5% 0% 0.5% 5%;
     align-items: center;
     justify-content: row;
-    gap: 835px;
+    gap: 60%;
 }
 
 .cabecalho__nome{
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 700;
     font-family: var(--font-principal);
     color: var(--cor-primaria);
@@ -47,7 +47,7 @@ body {
     display: flex;
     align-items: center;
     font-family: var(--font-principal);
-    font-size: 16px;
+    font-size: 1rem;
     font-style: 400;
     color: var(--cor-secundaria);
     text-decoration-line: none;
@@ -59,7 +59,7 @@ body {
     justify-content: center;
     text-align: center;
     font-family: var(--font-principal);
-    font-size: 16px;
+    font-size: 1rem;
     font-style: 400;
     color: var(--cor-terciaria);
     text-decoration-line: none;
@@ -107,18 +107,37 @@ body {
 }
 
 .subtitulo{
-    font-style: 21px;
+    font-style: 1.3rem;
     font-weight: 500;
 }
 
 h1 {
     color: var(--cor-primaria);
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 700;
 }
 
 p{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5% 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+        align-items: center;
+    }
+}
