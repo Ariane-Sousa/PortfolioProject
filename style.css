@@ -143,6 +143,12 @@ p{
 }
 
 @media (max-width: 850px) {
+    body {
+        box-sizing: border-box;
+        background-color: var(--cor-terciaria);
+        color: var(--cor-secundaria);
+    }
+    
     .cabecalho {
         padding: 5%;
         display: flex;
