@@ -197,7 +197,7 @@ p{
     }
   
     .apresentacao__links__navegacao {
-        flex-direction: column;
+        flex-direction: row;
         gap: 16px;
     }
   
