@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root{
+    --cor-primaria: #480B51;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #FFFFFF;
+    --font-principal: 'DM Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    display: flex;
+    padding: 24px 98px 24px 98px;
+    align-items: center;
+    justify-content: row;
+    gap: 835px;
+}
+
+.cabecalho__nome{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--font-principal);
+    color: var(--cor-primaria);
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 48px;
+}
+
+.cabecalho__menu :hover{
+    text-decoration-line: underline;
+}
+
+.cabecalho__menu__link{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-style: 400;
+    color: var(--cor-secundaria);
+    text-decoration-line: none;
+}
+
+.cabecalho__menu__curriculo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-style: 400;
+    color: var(--cor-terciaria);
+    text-decoration-line: none;
+    background-color: #480B51;
+    width: 112px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 73px 400px 73px 112px;
+    gap: 40px;
+}
+
+.apresentacao__imagem{
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-principal);
+    gap: 16px;
+    width: 612px;
+    height: 250px;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--font-principal);
+    font-weight: 500;
+}
+
+.apresentacao__links__navegacao{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.subtitulo{
+    font-style: 21px;
+    font-weight: 500;
+}
+
+h1 {
+    color: var(--cor-primaria);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
